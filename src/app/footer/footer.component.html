@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer-title">Consultations</div>
+        <div class="line"></div>
+        <ul>
+          <li *ngFor="let consultation of consultations">
+            {{consultation}}
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-title">Diagnostics</div>
+        <div class="line"></div>
+        <ul>
+          <li *ngFor="let diagnostic of diagnostics">
+            {{diagnostic}}
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-title">Speciality Clinics</div>
+        <div class="line"></div>
+        <ul>
+          <li *ngFor="let healthcheck of healthChecks">
+            {{healthcheck}}
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <div class="footer-title">Contact Us</div>
+        <div class="line"></div>
+        <ul>
+          <li>Contact</li>
+          <li>Careers</li>
+          <li>Feedback</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

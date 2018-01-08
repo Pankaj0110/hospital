@@ -1,0 +1,19 @@
+.login-container{
+    background-color:#EFEFEF;
+    opacity:1;
+    color:#79889B;
+    padding:15px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 5px 6px -6px #777;
+    -moz-box-shadow: 0 5px 6px -6px #777;
+    box-shadow: 0 5px 6px -6px #777;
+}
+.btn-login{
+    background-color:#E37222;
+    opacity:1 !important;
+    border-color:#EEAA7B;
+    color:#FFFFFF;
+}
+.fa{
+    color:#E37222;
+}

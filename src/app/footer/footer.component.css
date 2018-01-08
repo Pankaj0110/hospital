@@ -1,0 +1,36 @@
+.container-fluid{
+    margin-top:20px;
+    height:auto;
+    display: block;
+    background-color:#EFEFEF;
+}
+.container{
+    padding-bottom:20px;
+    color:#333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px;
+}
+.footer-title{
+    /* text-align: center; */
+    padding:5px;
+    color:#333;
+    font-size:14px;
+    margin:0px 10%;
+    width:80%;
+}
+li{
+    list-style: none;
+    margin-top:5px;
+    color:#79889B;
+}
+li:hover{
+    color:#E37222;
+    cursor: pointer;
+}
+.line{
+    display:block;
+    margin:0px 10%;
+    width:80%;
+    background-color:#79889B;
+    height:1px;
+}
